@@ -1,0 +1,19 @@
+.main {
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: absolute;
+    color: #f3f2f3;
+}
+
+.main .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #f3f2f3;
+    max-height: 50px;
+    width: 500px;
+    background: #1a1c22;
+}

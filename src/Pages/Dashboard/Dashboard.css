@@ -1,0 +1,18 @@
+.Cards {
+    display: flex;
+}
+
+.Card {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.Card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
