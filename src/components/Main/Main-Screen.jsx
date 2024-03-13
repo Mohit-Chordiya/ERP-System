@@ -7,7 +7,7 @@ const Main = () => {
             <div className="nav">
                 <p>Dashboard</p>
             </div>
-            <div className="main-container">Main Container</div>
+            <div className="inside-main">Main Container</div>
         </div>
     );
 };
