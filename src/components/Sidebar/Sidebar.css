@@ -1,17 +1,19 @@
 .sidebar {
-    width: 14%;
+    float: left;
+    width: 300px;
     min-height: 100vh;
     background: #1a1c22;
     color: #f6f5f5;
     font-size: x-large;
     padding: 120px 25px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
 }
 
 .side-link {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: fit-content;
     cursor: pointer;
     margin-bottom: 25px;

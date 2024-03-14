@@ -1,9 +1,17 @@
+.Card-Chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .Cards {
     display: flex;
+    margin-top: 50px;
 }
 
 .Card {
-    width: 200px;
+    width: 250px;
     height: 150px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -15,4 +23,18 @@
 
 .Card:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    padding: 30px;
+    background-color: #1a1c22;
+}
+
+.Bar-Chart {
+    /* flex: 1;
+    display: flex; */
+    margin-top: 50px;
+    width: 1000px;
+    height: 550px;
+    /* padding: 50px; */
 }

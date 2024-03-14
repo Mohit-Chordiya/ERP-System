@@ -1,26 +1,23 @@
-.main {
+.container {
+    display: flex;
+}
+
+.side-container {
+    /* float: left; */
+}
+
+.main-container {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    color: #f3f2f3;
-    position: relative;
     overflow: hidden;
+    background-color: #282c35;
 }
 
-.main .nav {
-    align-items: center;
-    justify-content: space-between;
-    font-size: 25px;
-    padding: 20px;
-    padding-left: 30px;
-    color: #f3f2f3;
-    max-height: 100px;
-    background: #1a1c22;
-}
-
-.main .inside-main {
+.main {
     flex: 1;
     min-height: 92.8vh;
-    background: #282c35;
-    padding: 100px;
+    /* background: #282c35; */
+    /* padding: 100px; */
     overflow-y: auto;
 }
