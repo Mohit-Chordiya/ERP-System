@@ -1,40 +1,59 @@
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    background-color: #1a1c22;
+}
 .Card-Chart {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .Cards {
     display: flex;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .Card {
-    width: 250px;
-    height: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 125px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 8px;
+    margin-right: 20px;
     cursor: pointer;
     transition: box-shadow 0.3s;
-}
-
-.Card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-    padding: 30px;
     background-color: #1a1c22;
 }
 
+.Card h2 {
+    flex: 1;
+}
+
+.Card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
 .Bar-Chart {
-    /* flex: 1;
-    display: flex; */
-    margin-top: 50px;
+    margin-top: 20px;
     width: 1000px;
     height: 550px;
-    /* padding: 50px; */
+}
+
+.Bar-Chart:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.Card img {
+    background-color: #282c35;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
 }

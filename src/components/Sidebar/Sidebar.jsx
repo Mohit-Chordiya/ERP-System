@@ -12,7 +12,6 @@ const Sidebar = ({ onItemClick }) => {
                     className="side-link"
                     onClick={() => {
                         onItemClick("Dashboard");
-                        console.log("Dashboard");
                     }}
                 >
                     <img className="dashboard" src={dashboard} />
@@ -22,7 +21,6 @@ const Sidebar = ({ onItemClick }) => {
                     className="side-link"
                     onClick={() => {
                         onItemClick("Products");
-                        console.log("Products");
                     }}
                 >
                     <img className="product" src={product} />
@@ -32,7 +30,6 @@ const Sidebar = ({ onItemClick }) => {
                     className="side-link"
                     onClick={() => {
                         onItemClick("Orders");
-                        console.log("Orders");
                     }}
                 >
                     <img className="order" src={order} />

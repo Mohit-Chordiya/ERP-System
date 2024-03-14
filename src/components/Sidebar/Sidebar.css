@@ -1,12 +1,11 @@
 .sidebar {
     float: left;
     width: 300px;
-    min-height: 100vh;
+    min-height: 120vh;
     background: #1a1c22;
-    color: #f6f5f5;
     font-size: x-large;
-    padding: 120px 25px;
-    /* position: fixed; */
+    padding-top: 170px;
+    padding-left: 60px;
     top: 0;
 }
 

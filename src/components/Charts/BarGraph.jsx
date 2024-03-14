@@ -21,19 +21,19 @@ const BarGraph = ({ data }) => {
                         x: {
                             stacked: false,
                             grid: {
-                                color: "rgba(255, 255, 255, 0.2)", // Change color of x axis grid lines
+                                color: "rgba(255, 255, 255, 0.2)",
                             },
                             ticks: {
-                                color: "white", // Change color of x axis labels
+                                color: "white",
                             },
                         },
                         y: {
                             stacked: false,
                             grid: {
-                                color: "rgba(255, 255, 255, 0.2)", // Change color of y axis grid lines
+                                color: "rgba(255, 255, 255, 0.2)",
                             },
                             ticks: {
-                                color: "white", // Change color of y axis labels
+                                color: "white",
                             },
                         },
                     },
