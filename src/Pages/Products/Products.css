@@ -87,3 +87,57 @@ button {
 .main-table button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
+
+@media (max-width: 600px) {
+    .main-table .products-table thead {
+        margin-top: -50px;
+    }
+    .main-table .products-table thead,
+    tbody {
+        margin-left: -10px;
+    }
+    h2 {
+        font-size: medium;
+    }
+
+    .main-table .products-table th,
+    td {
+        width: auto;
+        padding: auto;
+        font-size: 16.5px;
+    }
+    .main-table .products-table button {
+        width: 50px;
+    }
+
+    .add-product {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .add-product input {
+        width: auto;
+        height: 25px;
+        margin-top: 15px;
+    }
+
+    .add-product button {
+        font-size: 12px;
+        border-radius: 12px;
+        width: 75px;
+        height: 35px;
+        margin-top: -40px;
+    }
+
+    .edit-form {
+        margin-top: 0;
+    }
+
+    .edit-form button {
+        font-size: 12px;
+        border-radius: 12px;
+        width: 75px;
+        height: 35px;
+    }
+}

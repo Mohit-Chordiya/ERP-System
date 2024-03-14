@@ -45,3 +45,28 @@ option {
 .main-order-table .orders-table button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
+
+@media (max-width: 600px) {
+    .main-order-table .orders-table thead {
+        margin-top: -50px;
+    }
+    .main-order-table .orders-table thead,
+    tbody {
+        margin-left: -10px;
+    }
+    h2 {
+        font-size: medium;
+    }
+
+    .main-order-table .orders-table {
+        width: auto;
+        padding: auto;
+        font-size: 10px;
+    }
+    .main-order-table .orders-table button {
+        width: 50px;
+    }
+    .main-order-table .orders-table button {
+        width: 50px;
+    }
+}

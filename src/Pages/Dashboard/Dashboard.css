@@ -9,7 +9,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .Cards {
@@ -56,4 +55,33 @@ h1 {
     width: 45px;
     height: 45px;
     padding: 10px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: medium;
+    }
+    .Card-Chart {
+        align-items: center;
+        font-size: 12px;
+    }
+    .Cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Cards,
+    .Card,
+    .Bar-Chart {
+        width: 80%;
+        margin: 8px 0;
+    }
+    .Card img {
+        width: 30px;
+        height: 30px;
+    }
+    .Bar-Chart {
+        width: 80%;
+        height: 225px;
+    }
 }
