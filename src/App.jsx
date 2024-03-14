@@ -1,6 +1,5 @@
 import Main_Screen from "./components/Main/Main-Screen";
 import { useEffect } from "react";
-import "./App.css";
 function App() {
     useEffect(() => {
         document.body.style.overflow = "hidden";

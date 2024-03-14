@@ -17,7 +17,5 @@
 .main {
     flex: 1;
     min-height: 92.8vh;
-    /* background: #282c35; */
-    /* padding: 100px; */
     overflow-y: auto;
 }
