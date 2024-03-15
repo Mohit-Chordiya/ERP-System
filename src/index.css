@@ -5,3 +5,7 @@
     color: #f2eded;
     font-family: Calibri;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
