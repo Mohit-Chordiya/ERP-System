@@ -1,4 +1,4 @@
-h1 {
+.order-h1 {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 70px;
@@ -47,15 +47,18 @@ option {
 }
 
 @media (max-width: 600px) {
+    .order-h1 {
+        padding-left: 95px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        font-size: medium;
+    }
     .main-order-table .orders-table thead {
-        margin-top: -50px;
+        margin-top: -60px;
     }
     .main-order-table .orders-table thead,
     tbody {
         margin-left: -10px;
-    }
-    h2 {
-        font-size: medium;
     }
 
     .main-order-table .orders-table {

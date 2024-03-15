@@ -58,7 +58,7 @@ const OrdersManagement = () => {
 
     return (
         <div>
-            <h1>Orders Management</h1>
+            <h1 className="order-h1">Orders Management</h1>
             <div className="main-order-table">
                 <table className="orders-table">
                     <thead>

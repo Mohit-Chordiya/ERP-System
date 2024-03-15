@@ -50,7 +50,7 @@ const ProductManagement = () => {
 
     return (
         <div>
-            <h1>Product Management</h1>
+            <h1 className="product-h1">Product Management</h1>
             {editingProduct ? (
                 <div className="edit-form">
                     <center>

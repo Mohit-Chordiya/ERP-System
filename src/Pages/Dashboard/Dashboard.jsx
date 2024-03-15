@@ -27,7 +27,7 @@ function Dashboard() {
     };
     return (
         <div>
-            <h1>Dashboard</h1>
+            <h1 className="dashboard-h1">Dashboard</h1>
             <div className="Card-Chart">
                 <div className="Cards">
                     <div className="Card">

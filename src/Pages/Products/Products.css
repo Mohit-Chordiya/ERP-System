@@ -1,4 +1,4 @@
-h1 {
+.product-h1 {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 70px;
@@ -101,8 +101,14 @@ button {
 }
 
 @media (max-width: 600px) {
+    .product-h1 {
+        padding-left: 95px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        font-size: medium;
+    }
     .main-table .products-table thead {
-        margin-top: -50px;
+        margin-top: -60px;
     }
     .main-table .products-table thead,
     tbody {
