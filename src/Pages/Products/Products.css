@@ -32,7 +32,7 @@ td {
 .main-table .products-table button {
     color: black;
     width: 100px;
-    height: 20px;
+    height: 28px;
     border-radius: 7px;
 }
 
@@ -49,13 +49,19 @@ button {
 .add-product button {
     width: 100px;
     height: 30px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .add-product input {
     margin-top: 20px;
     margin-right: 5px;
     height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.add-product input::placeholder {
+    text-align: center;
 }
 
 .edit-form {
@@ -78,6 +84,12 @@ button {
     margin-top: 20px;
     margin-right: 5px;
     height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.edit-form input::placeholder {
+    text-align: center;
 }
 
 .edit-form button:hover {
