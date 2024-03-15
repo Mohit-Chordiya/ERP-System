@@ -17,6 +17,12 @@ quantity, using mock data
 - Show a list of orders, including details like order ID, customer name, order date,
 and status, using mock data.
 
+# Technologies Used:-
+1. React JS
+2. Javascript
+3. CSS
+4. HTML
+
 # Installation:-
 You will need to install node and npm globally on your machine before running the project and then follow the following steps:
 1. Clone the repository from Github using `git clone https://github.com/Mohit-Chordiya/ERP-System.git`.
