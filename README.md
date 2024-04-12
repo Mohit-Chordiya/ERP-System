@@ -25,13 +25,25 @@ and status, using mock data.
 
 # Installation:-
 You will need to install node and npm globally on your machine before running the project and then follow the following steps:
-1. Clone the repository from Github using `git clone https://github.com/Mohit-Chordiya/ERP-System.git`.
+1. Clone the repository from Github using
+```
+git clone https://github.com/Mohit-Chordiya/ERP-System.git
+```
 2. Navigate to the project directory.
-3. Install the required dependencies using `npm install`.
-4. Run the project using `npm run dev`.
-5. To Visit Site locally `http://localhost:5173/`
+3. Install the required dependencies using
+```
+npm install
+```
+4. Run the project using
+```
+npm run dev
+```
+5. To Visit the Site locally
+```
+http://localhost:5173/
+```
 
-# Demo
+# Demo:-
 Check out the live demo here https://erp-system-nine.vercel.app/
 
 # Screenshots with working:-
@@ -43,7 +55,7 @@ Check out the live demo here https://erp-system-nine.vercel.app/
 
 2. Product Screen:
 - The product screen displays the data related to products and provides the functionality of add, edit, and delete products.
-- When the edit button is clicked window is switched to another interface to enter the data and update the details.
+- When the edit button is clicked, the window is switched to another interface to enter the data and update the details.
 
 ![Alt text](src/assets/product_2.png)
 
